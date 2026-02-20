@@ -62,6 +62,16 @@ Para generar los archivos de producción:
 pnpm run build
 ```
 
+## 📈 Gestión de Versiones
+
+Este proyecto sigue la metodología **Semantic Versioning (SemVer)** para el control de versiones:
+
+- **MAJOR**: Cambios significativos o rediseños de la arquitectura.
+- **MINOR**: Nuevas funcionalidades o secciones.
+- **PATCH**: Corrección de bugs y mejoras menores.
+
+La versión actual se define en el archivo `package.json` y se muestra automáticamente en el pie de página de la aplicación.
+
 ---
 
 _Desarrollado por Antón Alonso._

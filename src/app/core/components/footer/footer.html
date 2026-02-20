@@ -29,8 +29,13 @@
     </div>
 
     <!-- Copyright -->
-    <div class="text-gray-500 text-sm">
-      &copy; {{ currentYear }} Anton Alonso. {{ 'FOOTER.RIGHTS' | translate }}
+    <div class="text-gray-500 text-sm flex flex-col md:items-end gap-1">
+      <span>&copy; {{ currentYear }} Anton Alonso. {{ 'FOOTER.RIGHTS' | translate }}</span>
+      <span
+        class="text-[10px] font-mono opacity-50 uppercase tracking-widest pt-1 border-t border-white/5"
+      >
+        v{{ version }}
+      </span>
     </div>
   </div>
 </footer>

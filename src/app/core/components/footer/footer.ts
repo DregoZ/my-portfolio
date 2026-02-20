@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
 import { TranslatePipe } from '../../../shared/pipes/translate.pipe';
+import packageInfo from '../../../../../package.json';
 
 @Component({
   selector: 'app-footer',
@@ -13,4 +14,5 @@ import { TranslatePipe } from '../../../shared/pipes/translate.pipe';
 export class Footer {
   langService = inject(LanguageService);
   currentYear = new Date().getFullYear();
+  version = packageInfo.version;
 }
