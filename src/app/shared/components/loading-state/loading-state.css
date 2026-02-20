@@ -1,0 +1,17 @@
+@reference "tailwindcss";
+
+:host {
+  display: block;
+}
+
+.loading-container {
+  @apply col-span-full text-center py-24;
+}
+
+.pulse-icon {
+  @apply inline-block p-4 bg-white/5 rounded-full mb-4 animate-pulse;
+}
+
+.loading-text {
+  @apply text-gray-500 text-lg;
+}

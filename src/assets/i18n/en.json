@@ -1,0 +1,36 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "PROJECTS": "Projects"
+  },
+  "HERO": {
+    "GREETING": "Hi there! I am",
+    "TITLE": "ANTON",
+    "TITLE2": "ALONSO",
+    "SUBTITLE": "Full-stack Developer specialized in modern, scalable interfaces and high-impact digital solutions.",
+    "CTA_PROJECTS": "View my projects",
+    "CTA_ABOUT": "About me"
+  },
+  "ABOUT": {
+    "HABILIDADES": "Skills",
+    "EXPERIENCIA": "Experience"
+  },
+  "PROJECTS": {
+    "TITLE": "My",
+    "SPAN": "Projects",
+    "SUBTITLE": "A selection of my most recent works and highlighted experiments.",
+    "VIEW_BUTTON": "VIEW PROJECT"
+  },
+  "TECHNOLOGY": {
+    "TITLE_SUFFIX": "Technologies"
+  },
+  "LOADING": {
+    "DEFAULT": "Loading amazing content... 🎧"
+  },
+  "FOOTER": {
+    "RIGHTS": "All rights reserved.",
+    "SUBTITLE": "Building the digital future"
+  }
+}

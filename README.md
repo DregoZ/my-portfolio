@@ -1,59 +1,67 @@
-# MyPortfolio
+# Portfolio Moderno - Angular 21
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
+Este proyecto es un portfolio profesional diseñado para mostrar no solo mis trabajos y experiencia, sino también la implementación de arquitecturas y prácticas modernas en el ecosistema de Angular.
 
-## Development server
+La aplicación ofrece una experiencia de navegación fluida en una sola página (Single Page Application) con un enfoque en el rendimiento, la accesibilidad y una estética visual impactante.
 
-To start a local development server, run:
+## 🚀 Características Técnicas
 
-```bash
-ng serve
-```
+Este proyecto utiliza las versiones más recientes de las tecnologías core de la web para garantizar un desarrollo eficiente y un producto final de alta calidad:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular 21**: Uso intensivo de las últimas características del framework.
+  - **Signals**: Gestión de estado reactiva y granular para un rendimiento óptimo sin relies en Zone.js innecesarios.
+  - **Standalone Components**: Arquitectura moderna sin módulos (NgModules), facilitando la mantenibilidad y el lazy loading.
+  - **Control Flow Sintaxis**: Uso de `@if`, `@for` y `@switch` para plantillas más limpias y eficientes.
+- **Tailwind CSS 4**: Estilizado moderno utilizando la última versión de Tailwind, aprovechando las variables CSS nativas y un motor de renderizado ultra rápido.
+- **Vitest**: Suite de pruebas unitarias rápida y moderna integrada en el flujo de trabajo de desarrollo.
+- **Internacionalización (i18n)**: Soporte completo para múltiples idiomas (Español/Inglés).
+- **Animaciones Avanzadas**: Implementación de animaciones de scroll (Intersection Observer) y fondos dinámicos.
 
-## Code scaffolding
+## 📁 Estructura del Proyecto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+El código sigue una estructura organizada por responsabilidades para facilitar el escalado:
 
-```bash
-ng generate component component-name
-```
+- `src/app/core/`: Componentes y servicios globales que sustentan la aplicación (Navbar, Footer, interceptores).
+- `src/app/features/`: Módulos de funcionalidades específicas como Home, Proyectos y Experiencia.
+- `src/app/shared/`: Componentes, directivas y pipes reutilizables en toda la aplicación.
+- `src/assets/data/`: Archivos JSON que centralizan la información del portfolio, facilitando las actualizaciones de contenido.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Desarrollo
 
-```bash
-ng generate --help
-```
+### Instalación de dependencias
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+El proyecto utiliza `pnpm` como gestor de paquetes por su velocidad y eficiencia:
 
 ```bash
-ng test
+pnpm install
 ```
 
-## Running end-to-end tests
+### Servidor de desarrollo
 
-For end-to-end (e2e) testing, run:
+Para iniciar el servidor local:
 
 ```bash
-ng e2e
+pnpm start
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente al modificar los archivos.
 
-## Additional Resources
+### Pruebas unitarias
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para ejecutar los tests con Vitest:
+
+```bash
+pnpm test
+```
+
+### Construcción para producción
+
+Para generar los archivos de producción:
+
+```bash
+pnpm run build
+```
+
+---
+
+_Desarrollado por Antón Alonso._

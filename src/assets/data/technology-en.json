@@ -1,0 +1,72 @@
+{
+    "title": "Technologies",
+    "desc": "This is a collection of technologies I have worked with",
+    "technologies": [
+        {
+            "name": "Backend",
+            "description": "Backend technologies used in my projects",
+            "list": [
+                "Express",
+                "Supabase",
+                "Node.js",
+                "MongoDB",
+                "PostgreSQL",
+                "GraphQL",
+                "REST API",
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "MySQL",
+                "Sequelize",
+                "Python",
+                "Django",
+                "Handlebars.js"
+            ]
+        },
+        {
+            "name": "Frontend",
+            "description": "Frontend technologies used in my projects",
+            "list": [
+                "Angular",
+                "TypeScript",
+                "TailwindCSS",
+                "Node.js",
+                "MongoDB",
+                "PostgreSQL",
+                "GraphQL",
+                "REST API",
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "MySQL",
+                "Sequelize",
+                "Python",
+                "Django",
+                "Handlebars.js"
+            ]
+        },
+        {
+            "name": "Tools and APIs",
+            "description": "Tools and APIs used in my projects",
+            "list": [
+                "Git",
+                "Docker",
+                "Webpack",
+                "ESLint",
+                "Prettier",
+                "Mapbox API",
+                "OpenAI API",
+                "Netlify",
+                "Vercel",
+                "Heroku",
+                "AWS",
+                "Stripe",
+                "Auth0",
+                "Render",
+                "Square API",
+                "VS Code",
+                "IntelliJ IDEA"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "title": "Tecnologías",
+    "desc": "Esta es una colección de tecnologías con las que he trabajado",
+    "technologies": [
+        {
+            "name": "Backend",
+            "description": "Tecnologías Backend usadas en mis proyectos",
+            "list": [
+                "Express",
+                "Supabase",
+                "Node.js",
+                "MongoDB",
+                "PostgreSQL",
+                "GraphQL",
+                "REST API",
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "MySQL",
+                "Sequelize",
+                "Python",
+                "Django",
+                "Handlebars.js"
+            ]
+        },
+        {
+            "name": "Frontend",
+            "description": "Tecnologías Frontend usadas en mis proyectos",
+            "list": [
+                "Angular",
+                "TypeScript",
+                "TailwindCSS",
+                "Node.js",
+                "MongoDB",
+                "PostgreSQL",
+                "GraphQL",
+                "REST API",
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "MySQL",
+                "Sequelize",
+                "Python",
+                "Django",
+                "Handlebars.js"
+            ]
+        },
+        {
+            "name": "Herramientas y API's",
+            "description": "Herramientas y API's usadas en mis proyectos",
+            "list": [
+                "Git",
+                "Docker",
+                "Webpack",
+                "ESLint",
+                "Prettier",
+                "Mapbox API",
+                "OpenAI API",
+                "Netlify",
+                "Vercel",
+                "Heroku",
+                "AWS",
+                "Stripe",
+                "Auth0",
+                "Render",
+                "Square API",
+                "VS Code",
+                "IntelliJ IDEA"
+            ]
+        }
+    ]
+}

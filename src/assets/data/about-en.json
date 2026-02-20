@@ -1,0 +1,45 @@
+{
+  "personal": {
+    "name": "Anton Chamorro",
+    "title": "Frontend Developer",
+    "photo": "assets/images/profile.jpg",
+    "summary": "Passionate about building modern and scalable interfaces using Angular and web technologies.",
+    "about": [
+      "I am a full-stack developer with over 5 years of experience creating modern, scalable web applications and SaaS platforms. My expertise includes building intuitive front-end interfaces with React, Next.js, Tailwind CSS, and SwiftUI, as well as developing robust back-end systems with Spring Boot, Node.js, Express, and Supabase.",
+      "I specialize in integrating powerful technologies like PostgreSQL, MongoDB, MySQL, OpenAI API, and Mapbox API to create seamless user experiences. With a strong focus on efficiency and scalability, I leverage tools such as Docker, AWS, Git, and Stripe to streamline workflows, deployment, and payments.",
+      "Driven by curiosity and a commitment to excellence, I am passionate about delivering impactful digital solutions, building both web and mobile experiences, and continuously improving my skills."
+    ]
+  },
+  "skills": [
+    {
+      "name": "Angular",
+      "level": "Advanced"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced"
+    },
+    {
+      "name": "TailwindCSS",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Fullstack dev",
+      "company": "Opensoft SI",
+      "period": "2020-2022",
+      "description": "Development of desktop and web applications using Java, Maven, and Angular."
+    },
+    {
+      "role": "Frontend Dev/Fullstack dev",
+      "company": "Imatia SL",
+      "period": "2022-",
+      "description": "Development of web applications with Java, Spring Boot, and Angular. Interface adaptation to improve user experience. Performance and security optimization."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!-- Hero Section -->
+<!-- Background Layer (Animated) -->
+<div class="absolute inset-0 bg-hero-animated z-0"></div>
+
+<!-- Gradient Overlay -->
+<div class="absolute inset-0 hero-overlay z-10"></div>
+
+<div class="text-center relative z-20" @fadeInUp>
+  <!-- Perfil Circle -->
+  <div class="mb-8 relative inline-block">
+    <div
+      class="absolute -inset-1 bg-gradient-to-r from-[var(--accent-cyan)] to-blue-600 rounded-full blur opacity-25"
+    ></div>
+    <img
+      src="assets/images/profile.jpg"
+      alt="Anton Alonso"
+      class="relative w-32 h-32 rounded-full border-2 border-white/10 p-1 bg-[#0c0c0c] object-cover"
+      onerror="this.src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=Anton'"
+    />
+  </div>
+
+  <!-- Saludo -->
+  <h2
+    class="text-[var(--accent-cyan)] font-mono mb-4 tracking-wider uppercase text-sm font-semibold"
+  >
+    {{ 'HERO.GREETING' | translate }}
+  </h2>
+
+  <h1 class="text-6xl md:text-8xl font-bold tracking-tighter mb-6 text-white">
+    {{ 'HERO.TITLE' | translate }}
+    <span class="text-gradient"> {{ 'HERO.TITLE2' | translate }}</span>
+  </h1>
+
+  <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+    {{ 'HERO.SUBTITLE' | translate }}
+  </p>
+
+  <!-- CTAs -->
+  <div class="flex flex-col sm:flex-row gap-6 justify-center">
+    <a href="#projects" class="glow-btn">
+      {{ 'HERO.CTA_PROJECTS' | translate }}
+    </a>
+    <a
+      href="#about"
+      class="px-8 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition-all font-semibold text-white"
+    >
+      {{ 'HERO.CTA_ABOUT' | translate }}
+    </a>
+  </div>
+</div>

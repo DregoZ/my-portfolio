@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio Angular",
+      "description": "Mi propio portfolio moderno con contenido cargado desde JSON y animaciones.",
+      "link": "https://github.com/anton/portfolio"
+    },
+    {
+      "name": "Bienestar Social",
+      "description": "Aplicación web para la gestión de los servicios sociales de la administración pública gallega",
+      "link": "https://www.imatia.com/soluciones/social/"
+    }
+  ]
+}

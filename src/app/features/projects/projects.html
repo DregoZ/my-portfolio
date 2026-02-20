@@ -1,0 +1,26 @@
+<div class="relative w-full overflow-hidden">
+  <app-geometric-bg></app-geometric-bg>
+
+  <div class="projects-container p-8 max-w-6xl mx-auto pt-24 min-h-screen relative z-10">
+    <div class="text-center mb-16">
+      <h1 class="text-5xl font-bold mb-4 tracking-tighter">
+        {{ 'PROJECTS.TITLE' | translate }}
+        <span class="text-gradient">{{ 'PROJECTS.SPAN' | translate }}</span>
+      </h1>
+      <p class="text-gray-400 max-w-xl mx-auto">
+        {{ 'PROJECTS.SUBTITLE' | translate }}
+      </p>
+    </div>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      [@staggerFadeIn]="projects().length"
+    >
+      @for (project of projects(); track project.name) {
+        <app-project-card [project]="project" />
+      } @empty {
+        <app-loading-state></app-loading-state>
+      }
+    </div>
+  </div>
+</div>

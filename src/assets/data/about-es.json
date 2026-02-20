@@ -1,0 +1,45 @@
+{
+  "personal": {
+    "name": "Anton Chamorro",
+    "title": "Desarrollador Frontend",
+    "photo": "assets/images/profile.jpg",
+    "summary": "Apasionado por construir interfaces modernas y escalables usando Angular y tecnologías web.",
+    "about": [
+      "Soy un desarrollador full-stack con más de 5 años de experiencia en la creación de aplicaciones web modernas, escalables y plataformas SaaS. Mi experiencia incluye la construcción de interfaces front-end intuitivas con React, Next.js, Tailwind CSS y SwiftUI, así como el desarrollo de sistemas back-end robustos con Spring Boot, Node.js, Express y Supabase.",
+      "Me especializo en integrar tecnologías potentes como PostgreSQL, MongoDB, MySQL, la API de OpenAI y la API de Mapbox para crear experiencias de usuario fluidas. Con un fuerte enfoque en la eficiencia y la escalabilidad, utilizo herramientas como Docker, AWS, Git y Stripe para optimizar los flujos de trabajo, el despliegue y los pagos.",
+      "Impulsado por la curiosidad y el compromiso con la excelencia, me apasiona ofrecer soluciones digitales de alto impacto, construyendo experiencias tanto web como móviles, y mejorando continuamente mis habilidades."
+    ]
+  },
+  "skills": [
+    {
+      "name": "Angular",
+      "level": "Avanzado"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado"
+    },
+    {
+      "name": "TailwindCSS",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermedio"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Fullstack dev",
+      "company": "Opensoft SI",
+      "period": "2020-2022",
+      "description": "Desarrollo de aplicaciones de escritorio y web, con tecnologías Java, Maven y Angular"
+    },
+    {
+      "role": "Frontend Dev/Fullstack dev",
+      "company": "Imatia SL",
+      "period": "2022-",
+      "description": "Desarrollo de aplicaciones web con Java, SpringBoot, Angular. Adaptación de interfaces para mejorar la experiencia del usuario. Optimización de rendimiento y seguridad."
+    }
+  ]
+}

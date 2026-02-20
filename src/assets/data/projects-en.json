@@ -1,0 +1,9 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio Angular",
+      "description": "My own modern portfolio with content loaded from JSON and animations.",
+      "link": "https://github.com/anton/portfolio"
+    }
+  ]
+}
