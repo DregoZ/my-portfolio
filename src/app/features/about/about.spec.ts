@@ -3,6 +3,10 @@ import { of } from 'rxjs';
 
 import { About } from './about';
 import { CvService } from '../../core/services/cv-data.service';
+import { provideNoopAnimations } from '@angular/platform-browser/animations';
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import '../../../test-setup';
 
 describe('About', () => {
   let component: About;
@@ -11,7 +15,7 @@ describe('About', () => {
 
   beforeEach(async () => {
     cvServiceMock = {
-      getCvData: () =>
+      getCvExperience: () =>
         of({
           personal: {
             name: 'Test User',
@@ -20,12 +24,18 @@ describe('About', () => {
             title: 'Test Title',
           },
           skills: [],
+          experience: [],
         }),
     };
 
     await TestBed.configureTestingModule({
       imports: [About],
-      providers: [{ provide: CvService, useValue: cvServiceMock }],
+      providers: [
+        { provide: CvService, useValue: cvServiceMock },
+        provideNoopAnimations(),
+        provideHttpClient(),
+        provideHttpClientTesting(),
+      ],
     }).compileComponents();
 
     fixture = TestBed.createComponent(About);
