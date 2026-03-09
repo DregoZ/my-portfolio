@@ -4,6 +4,11 @@
       "name": "Portfolio Angular",
       "description": "My own modern portfolio with content loaded from JSON and animations.",
       "link": "https://github.com/anton/portfolio"
+    },
+    {
+      "name": "Bienestar Social",
+      "description": "Web application for the management of social services of the Galician public administration",
+      "link": "https://www.imatia.com/soluciones/social/"
     }
   ]
 }

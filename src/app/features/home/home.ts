@@ -6,11 +6,12 @@ import { About } from '../about/about';
 import { Projects } from '../projects/projects';
 import { Hero } from '../hero/hero';
 import { Technology } from '../technology/technology';
+import { Contact } from '../contact/contact';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, RouterModule, About, Technology, Projects, Hero],
+  imports: [CommonModule, RouterModule, About, Technology, Projects, Hero, Contact],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

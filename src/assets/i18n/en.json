@@ -2,7 +2,7 @@
   "NAVBAR": {
     "HOME": "Home",
     "ABOUT": "About",
-    "EXPERIENCE": "Experience",
+    "TECHNOLOGY": "Technology",
     "PROJECTS": "Projects"
   },
   "HERO": {
@@ -11,7 +11,11 @@
     "TITLE2": "ALONSO",
     "SUBTITLE": "Full-stack Developer specialized in modern, scalable interfaces and high-impact digital solutions.",
     "CTA_PROJECTS": "View my projects",
-    "CTA_ABOUT": "About me"
+    "CTA_ABOUT": "About me",
+    "ALT_PROFILE": "Anton Alonso profile picture"
+  },
+  "BRANDING": {
+    "NAME": "ANTON ALONSO"
   },
   "ABOUT": {
     "HABILIDADES": "Skills",
@@ -31,6 +35,10 @@
   },
   "FOOTER": {
     "RIGHTS": "All rights reserved.",
-    "SUBTITLE": "Building the digital future"
+    "SUBTITLE": "Building the digital future",
+    "COPYRIGHT": "Anton Alonso"
+  },
+  "CONTACT": {
+    "WORKS": "contact works!"
   }
 }

@@ -18,7 +18,7 @@ import { GeometricBg } from '../../core/components/geometric-bg/geometric-bg';
 })
 export class Projects {
   private cvService = inject(CvService);
-  langService = inject(LanguageService);
+  //langService = inject(LanguageService);
   projects = signal<any[]>([]);
 
   ngOnInit() {

@@ -49,4 +49,13 @@ export class CvService {
       }),
     );
   }
+
+  getSocials(): Observable<any> {
+    return this.http.get('/assets/data/socials.json').pipe(
+      catchError((error) => {
+        console.error('Error loading socials data:', error);
+        return of({ socials: [] });
+      }),
+    );
+  }
 }

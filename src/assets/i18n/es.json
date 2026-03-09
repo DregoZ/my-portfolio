@@ -11,7 +11,11 @@
     "TITLE2": "ALONSO",
     "SUBTITLE": "Desarrollador Full-stack especializado en interfaces modernas, escalables y alto impacto digital.",
     "CTA_PROJECTS": "Ver mis proyectos",
-    "CTA_ABOUT": "Sobre mí"
+    "CTA_ABOUT": "Sobre mí",
+    "ALT_PROFILE": "Foto de perfil de Anton Alonso"
+  },
+  "BRANDING": {
+    "NAME": "ANTON ALONSO"
   },
   "ABOUT": {
     "HABILIDADES": "Habilidades",
@@ -31,6 +35,10 @@
   },
   "FOOTER": {
     "RIGHTS": "Todos los derechos reservados.",
-    "SUBTITLE": "Construyendo el futuro digital"
+    "SUBTITLE": "Construyendo el futuro digital",
+    "COPYRIGHT": "Anton Alonso"
+  },
+  "CONTACT": {
+    "WORKS": "Sección de contacto en desarrollo"
   }
 }

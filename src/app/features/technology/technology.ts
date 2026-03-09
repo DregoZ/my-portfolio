@@ -17,7 +17,7 @@ import { staggerFadeIn } from '../../shared/animations/animations';
 })
 export class Technology {
   private cvService = inject(CvService);
-  langService = inject(LanguageService);
+  //langService = inject(LanguageService);
 
   title = signal<string>('');
   desc = signal<string>('');
