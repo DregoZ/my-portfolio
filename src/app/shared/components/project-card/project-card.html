@@ -2,17 +2,19 @@
   class="glass group rounded-3xl overflow-hidden hover:border-[var(--accent-cyan)]/50 transition-all duration-500 h-full"
 >
   <div class="p-8 flex flex-col h-full">
+    <!-- Project Image -->
     <div
-      class="w-12 h-12 bg-[var(--accent-cyan)]/10 rounded-2xl flex items-center justify-center mb-6 text-[var(--accent-cyan)] group-hover:scale-110 transition-transform duration-500"
+      class="relative w-full aspect-video mb-8 overflow-hidden rounded-2xl border border-white/10 group-hover:border-[var(--accent-cyan)]/30 transition-colors duration-500"
     >
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-        ></path>
-      </svg>
+      <img
+        [src]="project.image"
+        [alt]="project.name"
+        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        onerror="this.src = 'https://api.dicebear.com/7.x/shapes/svg?seed=' + project.name"
+      />
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-[#0c0c0c]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+      ></div>
     </div>
 
     <h3
