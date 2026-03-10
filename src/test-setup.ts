@@ -1,4 +1,13 @@
-// Mock canvas for JSDOM
+/**
+ * Global Test Setup for Portfolio Application
+ *
+ * JSDOM (our testing environment) lacks native support for modern browser APIs
+ * used for visual effects and responsive behaviors. This file provides minimal
+ * mocks to ensure components can be instantiated and tested without runtime errors.
+ */
+
+// Mock Canvas API: Required for GeometricBg and AnimatedBg components.
+// JSDOM does not implement the 2D rendering context used for background effects.
 if (typeof HTMLCanvasElement !== 'undefined') {
   HTMLCanvasElement.prototype.getContext = (() => ({
     fillRect: () => {},
@@ -37,7 +46,8 @@ if (typeof HTMLCanvasElement !== 'undefined') {
   })) as any;
 }
 
-// Mock ResizeObserver
+// Mock ResizeObserver: Used for fluid responsive resizing of canvas elements.
+// This API is not natively supported in the current JSDOM version.
 if (typeof window !== 'undefined' && !window.ResizeObserver) {
   window.ResizeObserver = class ResizeObserver {
     observe() {}
@@ -46,7 +56,8 @@ if (typeof window !== 'undefined' && !window.ResizeObserver) {
   };
 }
 
-// Mock requestAnimationFrame
+// Mock requestAnimationFrame: Essential for UI thread animations.
+// Optimized for the testing event loop using a standard 16ms delay.
 if (typeof window !== 'undefined' && !window.requestAnimationFrame) {
   window.requestAnimationFrame = (callback: FrameRequestCallback) => {
     return setTimeout(() => callback(Date.now()), 16) as any;
